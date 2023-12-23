@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600;700;800;900&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600;6..12,700&family=Oswald:wght@200;300;400;500;600;700&family=Poppins:wght@300&family=Young+Serif&display=swap');
+
+* {
+  font-family: 'Inconsolata', monospace;
+border-radius: 10px;
+}
+
+.bd1 {
+  border: 2px solid #d90000;
+}
+
+.bd2 {
+  border: 2px solid #0e00d9;
+}
+
+.bd3 {
+  border: 2px solid rgb(47, 217, 0);
+}
+
+body {
+  background-color: #40183e;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-image: url('https://res.cloudinary.com/dsliq2ey2/image/upload/v1699109437/rat-race_u96rri.svg');
+}
+
+.bp {
+  background-image: url('https://res.cloudinary.com/dsliq2ey2/image/upload/v1699112720/Untitled_design_2_y9faoi.svg');
+  background-position: center;
+  background-size: cover;
+position: relative;
+}
+
+
+.ss{
+  display: none;
+}
+
+.aa:hover .ss{
+  display: block;
+}
+
+.hh{
+  display: none;
+}
+.hehe:hover .hh{
+  display: block;
+}
+
+
+*::-webkit-scrollbar {
+  width: 3px;
+  /* width of the entire scrollbar */
+border-radius: 10px;
+  
+}
+
+*::-webkit-scrollbar-track {
+  background: #F5F5DC;
+border-radius: 10px;
+/* color of the tracking area */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #b7d837;
+  /* color of the scroll thumb */
+  border-radius: 10px;
+  /* roundness of the scroll thumb */
+  /* border: 3px solid orange;   */
+}
+
